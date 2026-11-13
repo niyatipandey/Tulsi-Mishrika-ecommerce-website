@@ -1,0 +1,19 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+
+# Local files
+*.log
+.DS_Store
+.vscode/
+
+# Local tool configuration and temporary files
+.kiro/
+supabase/.temp/

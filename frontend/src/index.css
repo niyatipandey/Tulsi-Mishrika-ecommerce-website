@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+Devanagari:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-heading: "Playfair Display", serif;
+  --font-hindi: "Noto Serif Devanagari", serif;
+  --font-body: "Inter", sans-serif;
+
+  /* Brand Colors */
+  --color-cream: #FAF7F2;
+  --color-cream-light: #FAF7F2;
+  
+  --color-brown-dark: #2C1810;
+  --color-brown-medium: #3D2817;
+  --color-brown-light: #8B6F47;
+  
+  --color-gold: #DAA520;
+
+  /* Extended Brand Colors */
+  --color-brand-cream: #FAF7F2;
+  --color-brand-beige: #F5F0E8;
+
+  --color-brand-brown-50: #FAF7F2;
+  --color-brand-brown-100: #F5F0E8;
+  --color-brand-brown-200: #E8DED0;
+  --color-brand-brown-300: #D4C5B0;
+  --color-brand-brown-600: #4A3425;
+  --color-brand-brown-800: #3D2817;
+  --color-[#292D08]: #2C1810;
+
+  --color-brand-gold-500: #DAA520;
+  --color-brand-gold-600: #B8860B;
+}
+
+@layer base {
+  body {
+    @apply font-body text-[#292D08] bg-brand-cream;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
+  }
+}
+
+@layer utilities {
+  .animate-fadeIn {
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  .animate-slideIn {
+    animation: slideIn 0.35s ease-out;
+  }
+
+  .animate-badgePop {
+    animation: badgePop 0.35s cubic-bezier(0.2, 0.9, 0.3, 1.4);
+  }
+
+  .hero-mandala {
+    background-image:
+      radial-gradient(
+        circle at center,
+        rgba(218, 165, 32, 0.12) 0,
+        transparent 42%
+      ),
+      radial-gradient(
+        circle at 20% 80%,
+        rgba(61, 40, 23, 0.06) 0,
+        transparent 30%
+      ),
+      radial-gradient(
+        circle at 80% 20%,
+        rgba(61, 40, 23, 0.06) 0,
+        transparent 28%
+      );
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(16px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes badgePop {
+    0% {
+      transform: scale(0.4);
+    }
+
+    70% {
+      transform: scale(1.15);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+}

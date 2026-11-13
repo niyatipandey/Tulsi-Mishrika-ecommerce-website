@@ -1,0 +1,122 @@
+.legal-page {
+  min-height: 70vh;
+  background: #faf9f6;
+  padding: 64px 20px 90px;
+  color: #292820;
+}
+
+.legal-page__header {
+  max-width: 850px;
+  margin: 0 auto 42px;
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e6e1d7;
+}
+
+.legal-page__eyebrow {
+  color: #8a713c;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin: 0 0 14px;
+}
+
+.legal-page__header h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(32px, 5vw, 48px);
+  line-height: 1.15;
+  font-weight: 600;
+  margin: 0;
+  color: #292820;
+}
+
+.legal-page__updated {
+  margin: 16px 0 0;
+  color: #777367;
+  font-size: 14px;
+}
+
+.legal-page__content {
+  max-width: 850px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 42px 48px;
+  border: 1px solid #eeeae2;
+  border-radius: 8px;
+  box-shadow: 0 8px 30px rgba(40, 35, 20, 0.04);
+}
+
+.legal-page__content section {
+  margin-bottom: 34px;
+}
+
+.legal-page__content section:last-child {
+  margin-bottom: 0;
+}
+
+.legal-page__content h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #514323;
+  font-size: 21px;
+  font-weight: 600;
+  margin: 0 0 14px;
+}
+
+.legal-page__content p {
+  color: #555348;
+  font-size: 15px;
+  line-height: 1.85;
+  margin: 0 0 13px;
+}
+
+.legal-page__content ul,
+.legal-page__content ol {
+  padding-left: 23px;
+  margin: 12px 0 0;
+  color: #555348;
+}
+
+.legal-page__content li {
+  font-size: 15px;
+  line-height: 1.8;
+  padding-left: 5px;
+  margin-bottom: 8px;
+}
+
+.legal-page__content strong {
+  color: #343126;
+}
+
+.legal-page__contact {
+  background: #f8f6f0;
+  border-left: 3px solid #a38a52;
+  padding: 18px 22px;
+  border-radius: 3px;
+}
+
+.legal-page__contact p {
+  margin-bottom: 7px;
+}
+
+@media (max-width: 600px) {
+  .legal-page {
+    padding: 42px 14px 60px;
+  }
+
+  .legal-page__header {
+    margin-bottom: 26px;
+  }
+
+  .legal-page__content {
+    padding: 27px 21px;
+  }
+
+  .legal-page__content h2 {
+    font-size: 19px;
+  }
+
+  .legal-page__content p,
+  .legal-page__content li {
+    font-size: 14px;
+  }
+}
