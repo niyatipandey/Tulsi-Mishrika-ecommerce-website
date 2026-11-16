@@ -7,6 +7,16 @@ export default async function handler(req: any, res: any) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
   }
+  const apiKey = process.env.RESEND_API_KEY;
+
+if (!apiKey) {
+  console.error('RESEND_API_KEY is missing');
+  return res.status(500).json({
+    error: 'Email service is not configured on the server.',
+  });
+}
+
+const resend = new Resend(apiKey);
 
   try {
     const { name, email, phone, subject, message } = req.body || {};

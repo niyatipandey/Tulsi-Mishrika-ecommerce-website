@@ -240,14 +240,9 @@ if (!response.ok) {
                   </div>
                   <div>
                     <h3 className="font-semibold text-brown-dark mb-2">Email Us</h3>
-                    <p className="text-sm text-brown-medium">
-                      <a href="mailto:hello@tulsimishrika.com" className="hover:text-gold transition-colors">
-                        hello@tulsimishrika.com
-                      </a>
-                    </p>
                     <p className="text-sm text-brown-medium mt-1">
                       <a href="mailto:support@tulsimishrika.com" className="hover:text-gold transition-colors">
-                        support@tulsimishrika.com
+                        support.madhuvan@gmail.com
                       </a>
                     </p>
                   </div>
