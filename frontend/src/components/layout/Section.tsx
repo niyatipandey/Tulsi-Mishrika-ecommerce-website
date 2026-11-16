@@ -15,7 +15,7 @@ export default function Section({
     cream: 'bg-brand-cream',
     'cream-light': 'bg-brand-beige',
     white: 'bg-white',
-    brown: 'bg-[#292D08] text-white',
+    brown: 'bg-brown-dark text-white',
     'brown-dark': 'bg-brand-brown text-white',
     'green-50': 'bg-green-50',
     none: '',

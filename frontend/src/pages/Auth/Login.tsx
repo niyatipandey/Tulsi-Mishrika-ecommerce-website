@@ -87,7 +87,7 @@ export default function Login() {
 
             <p className="mb-8 text-center text-gray-600">
               {isSignUp
-                ? 'Create an account to track your Tulsi Mishrika orders.'
+                ? 'Create an account to track your MADHU वन orders.'
                 : 'Log in to view your account and orders.'}
             </p>
 

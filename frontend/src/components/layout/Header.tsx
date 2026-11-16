@@ -46,7 +46,7 @@ export default function Header() {
   return (
     <header className="bg-white border-b border-brand-brown-200 sticky top-0 z-40">
       {/* Top banner */}
-      <div className="bg-[#292D08] text-white py-2">
+      <div className="bg-brown-dark text-white py-2">
         <div className="container mx-auto px-4 text-center text-sm">
           <span className="font-medium">Pure • Traditional • Healthy</span>
         </div>
@@ -59,7 +59,7 @@ export default function Header() {
           <Link to="/" className="flex items-center space-x-2">
             <div className="text-center">
               <h1 className="text-2xl md:text-3xl font-hindi font-bold text-[#292D08] leading-tight">
-                तुलसी मिश्रिका
+                MADHU वन
               </h1>
               <p className="text-xs text-brand-brown-600 tracking-wide">
                 मिश्री की शुद्ध पहचान

@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Tulsi Mishrika shopping cart is built with **Zustand** for state management and **Supabase** for persistence. It features optimistic updates, automatic sync for logged-in users, and localStorage persistence for guest users.
+The MADHU वन shopping cart is built with **Zustand** for state management and **Supabase** for persistence. It features optimistic updates, automatic sync for logged-in users, and localStorage persistence for guest users.
 
 ## Architecture
 

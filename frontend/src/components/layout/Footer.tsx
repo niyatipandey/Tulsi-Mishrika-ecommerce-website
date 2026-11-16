@@ -4,7 +4,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="bg-[#292D08] text-white mt-4">
+    <footer className="bg-brown-dark text-white mt-4">
       {/* Decorative border */}
       <div className="h-1 bg-gradient-to-r from-brand-gold-600 via-brand-gold-500 to-brand-gold-600" />
 
@@ -13,7 +13,7 @@ export default function Footer() {
           {/* Brand Column */}
           <div>
             <h3 className="text-2xl font-hindi font-bold mb-4">
-              तुलसी मिश्रिका
+              MADHU वन
             </h3>
             <p className="text-gray-300 text-sm mb-4">
               Pure Sweetness of Tradition
@@ -214,7 +214,7 @@ export default function Footer() {
         <div className="border-t border-gray-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-gray-400 text-center md:text-left">
-              &copy; {currentYear} Tulsi Mishrika. All rights reserved.
+              &copy; {currentYear} MADHU वन. All rights reserved.
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-400">
               <Link to="/privacy" className="hover:text-white transition-colors">

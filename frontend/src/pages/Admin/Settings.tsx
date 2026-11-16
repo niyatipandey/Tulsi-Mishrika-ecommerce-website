@@ -154,8 +154,7 @@ export default function Settings() {
                 Store name
               </label>
               <p className="mt-1 font-semibold text-[#20352B]">
-                Tulsi Mishrika
-              </p>
+                MADHU वन              </p>
             </div>
 
             <div>

@@ -9,7 +9,7 @@ export default function PrivacyPolicy() {
       <section>
         <h2>1. Who We Are</h2>
         <p>
-          Tulsi Mishrika ("we", "us") sells sugar and related products
+          MADHU वन ("we", "us") sells sugar and related products
           through [Your Website URL]. We are the Data Fiduciary for the
           personal data described in this policy.
         </p>
@@ -298,7 +298,7 @@ export default function PrivacyPolicy() {
       <section>
         <h2>16. Contact</h2>
         <div className="legal-page__contact">
-          <p><strong>Business name:</strong> Tulsi Mishrika</p>
+          <p><strong>Business name:</strong> MADHU वन</p>
           <p><strong>Email:</strong> [Your Support Email]</p>
           <p><strong>Phone:</strong> [Your Business Phone]</p>
           <p><strong>Address:</strong> [Your Business Address]</p>

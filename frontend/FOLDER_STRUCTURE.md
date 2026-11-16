@@ -1,6 +1,6 @@
 # Frontend Folder Structure Guide
 
-Complete organization of the Tulsi Mishrika frontend codebase.
+Complete organization of the MADHU वन frontend codebase.
 
 ## 📂 Root Level
 
@@ -213,7 +213,7 @@ Static images and media:
 
 ```
 assets/
-├── logo.svg                # Tulsi Mishrika logo
+├── logo.svg                # MADHU वन logo
 ├── hero-bg.jpg             # Hero background
 ├── icons/                  # Custom icons
 └── images/                 # Other images

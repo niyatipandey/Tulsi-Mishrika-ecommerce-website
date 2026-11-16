@@ -49,8 +49,7 @@ export default function AdminSidebar() {
 
       <div className="mb-10">
         <h1 className="text-2xl font-bold tracking-wide">
-          Tulsi Mishrika
-        </h1>
+          MADHU वन        </h1>
 
         <p className="text-xs text-gray-300 mt-2 tracking-widest">
           STORE ADMINISTRATION

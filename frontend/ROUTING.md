@@ -1,6 +1,6 @@
 # React Router Configuration
 
-Complete routing setup for the Tulsi Mishrika e-commerce platform.
+Complete routing setup for the MADHU वन e-commerce platform.
 
 ## 📍 Route Structure
 
@@ -417,7 +417,7 @@ test('renders home page', () => {
       <AppRoutes />
     </MemoryRouter>
   )
-  expect(screen.getByText(/Tulsi Mishrika/i)).toBeInTheDocument()
+  expect(screen.getByText(/MADHU वन/i)).toBeInTheDocument()
 })
 
 test('renders 404 for invalid route', () => {

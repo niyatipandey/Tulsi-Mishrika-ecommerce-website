@@ -1,6 +1,6 @@
 # Component Library Documentation
 
-Complete documentation for all reusable components in the Tulsi Mishrika frontend.
+Complete documentation for all reusable components in the MADHU वन frontend.
 
 ## 📦 Common Components
 

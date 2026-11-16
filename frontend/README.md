@@ -1,4 +1,4 @@
-# Tulsi Mishrika Frontend
+# MADHU वन Frontend
 
 React + TypeScript + Vite + Tailwind CSS + Supabase
 
@@ -40,7 +40,7 @@ npm run dev
 http://localhost:5173
 ```
 
-You should see the Tulsi Mishrika setup status page. If Supabase is configured correctly, you'll see products from the database.
+You should see the MADHU वन setup status page. If Supabase is configured correctly, you'll see products from the database.
 
 ## 📁 Project Structure
 
@@ -86,7 +86,7 @@ src/
 
 ## 🎨 Design System
 
-The design is based on the Tulsi Mishrika brand identity:
+The design is based on the MADHU वन brand identity:
 
 ### Colors
 ```javascript
@@ -120,13 +120,13 @@ brand: {
 <h1 className="text-4xl font-heading text-[#292D08]">Title</h1>
 
 // Hindi text
-<p className="text-xl font-hindi">तुलसी मिश्रिका</p>
+<p className="text-xl font-hindi">MADHU वन</p>
 
 // Body text
 <p className="font-body text-brand-brown-600">Description</p>
 
 // Buttons
-<button className="bg-brand-brown-800 text-white hover:bg-[#292D08]">
+<button className="bg-brand-brown-800 text-white hover:bg-brown-dark">
   Shop Now
 </button>
 ```
@@ -304,7 +304,7 @@ function App() {
 
 ## 📄 License
 
-Private project for Tulsi Mishrika e-commerce platform.
+Private project for MADHU वन e-commerce platform.
 
 ---
 

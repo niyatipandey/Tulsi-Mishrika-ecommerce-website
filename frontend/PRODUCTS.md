@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Tulsi Mishrika product catalog is built with **Supabase queries** using custom React hooks. Products are fetched from the `products` table with real-time updates and optimistic UI patterns.
+The MADHU वन product catalog is built with **Supabase queries** using custom React hooks. Products are fetched from the `products` table with real-time updates and optimistic UI patterns.
 
 ## Architecture
 

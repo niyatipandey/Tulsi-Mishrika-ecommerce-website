@@ -8,7 +8,7 @@ export default function TermsConditions() {
         <h2>1. Agreement</h2>
         <p>
           These Terms govern your use of [Your Website URL] and your
-          purchases from Tulsi Mishrika ("we", "us").
+          purchases from MADHU वन ("we", "us").
         </p>
         <p>
           By using the website or placing an order, you agree to these
@@ -280,7 +280,7 @@ export default function TermsConditions() {
       <section>
         <h2>17. Contact</h2>
         <div className="legal-page__contact">
-          <p><strong>Business name:</strong> Tulsi Mishrika</p>
+          <p><strong>Business name:</strong> MADHU वन</p>
           <p><strong>Email:</strong> [Your Support Email]</p>
           <p><strong>Phone:</strong> [Your Business Phone]</p>
           <p><strong>Address:</strong> [Your Business Address]</p>

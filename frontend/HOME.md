@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Tulsi Mishrika homepage is designed to be a modern, elegant, and conversion-focused landing page that showcases the brand's traditional values while maintaining a contemporary aesthetic.
+The MADHU वन homepage is designed to be a modern, elegant, and conversion-focused landing page that showcases the brand's traditional values while maintaining a contemporary aesthetic.
 
 ## Design Philosophy
 
@@ -28,7 +28,7 @@ The Tulsi Mishrika homepage is designed to be a modern, elegant, and conversion-
 **Elements:**
 - **Left Column:**
   - Badge: "100% Natural & Pure" (gold background)
-  - Hindi Title: "तुलसी मिश्रिका" (large serif, bold)
+  - Hindi Title: "MADHU वन" (large serif, bold)
   - English Subtitle: "The Pure Essence of Traditional Crystal Sugar"
   - Description paragraph explaining the product
   - Two CTAs: "Shop Now" (primary) and "Our Story" (outline)

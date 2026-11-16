@@ -15,7 +15,7 @@ export default function LegalPage({
   return (
     <main className="legal-page">
       <div className="legal-page__header">
-        <p className="legal-page__eyebrow">TULSI MISHRIKA</p>
+        <p className="legal-page__eyebrow">MADHU वन</p>
         <h1>{title}</h1>
         {lastUpdated && (
           <p className="legal-page__updated">Last updated: {lastUpdated}</p>

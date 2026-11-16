@@ -101,10 +101,10 @@ export default function Home() {
           <div className="relative grid grid-cols-1 lg:grid-cols-2 items-center gap-8 py-12 md:py-20">
             {/* Left copy */}
             <div className="order-2 lg:order-1">
-              <p className="text-sm tracking-[0.3em] text-brown-dark font-semibold mb-4">TULSI MISHRIKA</p>
+              <p className="text-sm tracking-[0.3em] text-brown-dark font-semibold mb-4">MADHU वन</p>
 
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-brown-dark leading-tight">
-                तुलसी मिश्रीका
+                MADHU वन
               </h1>
               <p className="flex items-center gap-3 text-brown-medium text-lg mt-1 mb-8">
                 <span className="h-px w-8 bg-gold/70" />
@@ -133,7 +133,7 @@ export default function Home() {
             <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
               <img
                 src={heroImage}
-                alt="Tulsi Mishrika Kunja Mishri"
+                alt="MADHU वन Kunja Mishri"
                 className="relative w-full max-w-md lg:max-w-xl drop-shadow-2xl animate-float"
               />
             </div>
@@ -270,7 +270,7 @@ export default function Home() {
             <h2 className="text-3xl font-serif font-semibold text-cream-light">Our Story</h2>
             <OrnamentDivider className="my-3" />
             <p className="text-cream-light/90 leading-relaxed max-w-lg mb-5">
-              Born from tradition, crafted with care, Tulsi Mishrika brings you the purity of nature in every
+              Born from tradition, crafted with care, MADHU वन brings you the purity of nature in every
               crystal. Our Kunja Mishri is more than just a sweetener — it&apos;s a symbol of health, heritage and
               heartfelt goodness.
             </p>
@@ -307,12 +307,12 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-8 py-8 text-center">
             <span className="hidden md:block h-px flex-1 bg-gold/40" />
             <div>
-              <p className="text-2xl font-serif font-bold text-brown-dark">तुलसी मिश्रीका</p>
+              <p className="text-2xl font-serif font-bold text-brown-dark">MADHU वन</p>
               <p className="text-sm text-brown-medium mt-1">मिश्री की शुद्ध पहचान</p>
             </div>
             <span className="hidden md:block w-px h-10 bg-gold/50" />
             <p className="text-xs tracking-[0.3em] text-brown-medium">
-              TULSI MISHRIKA · PURE SWEETNESS OF TRADITION
+              MADHU वन · PURE SWEETNESS OF TRADITION
             </p>
             <span className="hidden md:block h-px flex-1 bg-gold/40" />
           </div>

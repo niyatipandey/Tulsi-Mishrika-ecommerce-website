@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Tulsi Mishrika e-commerce platform uses **Supabase Authentication** with **OTP (One-Time Password)** login. Users can sign in using either email or phone number (phone UI is present but SMS delivery requires additional Supabase configuration).
+The MADHU वन e-commerce platform uses **Supabase Authentication** with **OTP (One-Time Password)** login. Users can sign in using either email or phone number (phone UI is present but SMS delivery requires additional Supabase configuration).
 
 ## Architecture
 
@@ -419,8 +419,7 @@ For email OTP to work, configure SMTP in Supabase Dashboard:
    - **Username**: your-email@gmail.com
    - **Password**: app-specific password
    - **Sender Email**: your-email@gmail.com
-   - **Sender Name**: Tulsi Mishrika
-
+   - **Sender Name**: MADHU वन
 ### Gmail Setup (Example)
 
 1. Enable 2FA on your Google account

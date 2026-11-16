@@ -115,9 +115,20 @@ export default function Contact() {
     setLoading(true);
 
     try {
-      // Demo only: replace this with your backend/email-service request
-      // before publishing, otherwise no message will actually be sent.
-      await new Promise((resolve) => setTimeout(resolve, 1500));
+      const response = await fetch('/api/send-contact', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify(formData),
+});
+
+const result = await response.json();
+
+if (!response.ok) {
+  throw new Error(result.error || 'Failed to send message');
+}
+
 
       setSubmitted(true);
 

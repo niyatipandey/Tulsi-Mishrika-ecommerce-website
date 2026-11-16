@@ -7,8 +7,7 @@ export default function ReturnsPolicy() {
       <section>
         <h2>1. Scope</h2>
         <p>
-          This policy applies to all orders placed with Tulsi Mishrika
-          ("we", "us"). By placing an order, you agree to this policy.
+          This policy applies to all orders placed with MADHU वन          ("we", "us"). By placing an order, you agree to this policy.
         </p>
       </section>
 
@@ -164,7 +163,7 @@ export default function ReturnsPolicy() {
       <section>
         <h2>11. Contact</h2>
         <div className="legal-page__contact">
-          <p><strong>Business name:</strong> Tulsi Mishrika</p>
+          <p><strong>Business name:</strong> MADHU वन</p>
           <p><strong>Email:</strong> [Your Support Email]</p>
           <p><strong>Phone:</strong> [Your Business Phone]</p>
           <p><strong>Address:</strong> [Your Business Address]</p>

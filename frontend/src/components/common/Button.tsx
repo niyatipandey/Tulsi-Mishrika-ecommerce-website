@@ -24,7 +24,7 @@ export default function Button({
   const baseStyles = 'font-medium rounded-lg transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer inline-flex items-center justify-center'
 
   const variants = {
-    primary: 'bg-brand-brown-800 text-white hover:bg-[#292D08] active:scale-95',
+    primary: 'bg-brand-brown-800 text-white hover:bg-brown-dark active:scale-95',
     secondary: 'bg-brand-gold-500 text-white hover:bg-brand-gold-600 active:scale-95',
     outline: 'border-2 border-brand-brown-800 text-brand-brown-800 hover:bg-brand-brown-800 hover:text-white active:scale-95',
   }

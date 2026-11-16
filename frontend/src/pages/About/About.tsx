@@ -10,8 +10,7 @@ export default function About() {
         <Container>
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-serif font-bold text-brown-dark mb-6">
-              About Tulsi Mishrika
-            </h1>
+              About MADHU वन            </h1>
             <p className="text-xl text-brown-medium leading-relaxed">
               Preserving the ancient art of making pure crystal sugar, one batch at a time. 
               We believe in tradition, purity, and the healing power of nature.
@@ -46,7 +45,7 @@ export default function About() {
                 Bringing Back the Goodness of Tradition
               </h2>
               <p className="text-lg text-brown-medium leading-relaxed mb-6">
-                At Tulsi Mishrika, our mission is simple yet profound: to revive and preserve 
+                At MADHU वन, our mission is simple yet profound: to revive and preserve 
                 the centuries-old tradition of making pure, natural crystal sugar while making 
                 it accessible to modern households.
               </p>
@@ -124,7 +123,7 @@ export default function About() {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-serif font-bold text-brown-dark mb-4">
-                Why Choose Tulsi Mishrika?
+                Why Choose MADHU वन?
               </h2>
               <p className="text-lg text-brown-medium">
                 We're more than just a Mishri brand—we're a movement to bring back healthy, 
@@ -212,8 +211,7 @@ export default function About() {
               Meet Our Team
             </h2>
             <p className="text-lg text-brown-medium max-w-2xl mx-auto">
-              The passionate people behind Tulsi Mishrika
-            </p>
+              The passionate people behind MADHU वन            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
@@ -264,7 +262,7 @@ export default function About() {
               Ready to Experience Pure Tradition?
             </h2>
             <p className="text-xl text-black mb-8">
-              Join thousands of happy customers who've made Tulsi Mishrika part of their 
+              Join thousands of happy customers who've made MADHU वन part of their 
               daily wellness routine.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

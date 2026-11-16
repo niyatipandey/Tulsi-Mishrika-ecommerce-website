@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Tulsi Mishrika checkout system provides a complete order processing flow with address collection, payment method selection (mock), order creation, and confirmation. Orders are persisted to Supabase with full order item tracking.
+The MADHU वन checkout system provides a complete order processing flow with address collection, payment method selection (mock), order creation, and confirmation. Orders are persisted to Supabase with full order item tracking.
 
 ## Architecture
 

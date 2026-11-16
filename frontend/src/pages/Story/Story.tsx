@@ -15,8 +15,7 @@ export default function Story() {
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-serif font-bold text-brown-dark mb-6">
-              The Story of Tulsi Mishrika
-            </h1>
+              The Story of MADHU वन            </h1>
             <p className="text-xl text-brown-medium leading-relaxed">
               A tale of tradition, passion, and the unwavering belief that the old ways 
               still hold the sweetest secrets.
@@ -153,11 +152,11 @@ export default function Story() {
                 <p className="text-lg text-brown-medium leading-relaxed mb-4">
                   Word spread quickly. What started as gifts to friends became requests from 
                   their friends, then orders from local stores. Encouraged by the response, 
-                  Raj Kumar decided to take Tulsi Mishrika to a wider audience.
+                  Raj Kumar decided to take MADHU वन to a wider audience.
                 </p>
                 <p className="text-lg text-brown-medium leading-relaxed">
                   With a small team of dedicated artisans and a commitment to never compromise 
-                  on quality, Tulsi Mishrika was officially launched. The mission was clear: 
+                  on quality, MADHU वन was officially launched. The mission was clear: 
                   bring authentic, healthy sweetness back to Indian kitchens.
                 </p>
               </div>
@@ -184,7 +183,7 @@ export default function Story() {
               </div>
               <div className="pl-20">
                 <p className="text-lg text-brown-medium leading-relaxed mb-4">
-                  Today, Tulsi Mishrika serves thousands of families across India. Each batch 
+                  Today, MADHU वन serves thousands of families across India. Each batch 
                   is still made using the same traditional methods, with the same attention to 
                   purity and quality that Raj Kumar learned from his grandfather.
                 </p>
@@ -235,8 +234,7 @@ export default function Story() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/shop">
                 <Button variant="primary" size="lg">
-                  Shop Tulsi Mishrika
-                </Button>
+                  Shop MADHU वन                </Button>
               </Link>
               <Link to="/contact">
                 <Button variant="outline" size="lg">

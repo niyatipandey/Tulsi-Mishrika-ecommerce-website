@@ -1,8 +1,8 @@
-# Deployment Guide - Tulsi Mishrika E-Commerce
+# Deployment Guide - MADHU वन E-Commerce
 
 ## Overview
 
-This guide walks you through deploying the Tulsi Mishrika e-commerce website to production. The application consists of a React frontend (Vite) and a Supabase backend.
+This guide walks you through deploying the MADHU वन e-commerce website to production. The application consists of a React frontend (Vite) and a Supabase backend.
 
 ## Prerequisites
 
@@ -75,8 +75,7 @@ npx supabase db execute --file seed.sql
    - **Port**: `587`
    - **Username**: Your email
    - **Password**: App-specific password
-   - **Sender Name**: Tulsi Mishrika
-   - **Sender Email**: noreply@tulsimishrika.com
+   - **Sender Name**: MADHU वन   - **Sender Email**: noreply@tulsimishrika.com
 
 **Email Templates:**
 
@@ -354,22 +353,22 @@ lighthouse https://tulsimishrika.com --view
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
   <!-- Primary Meta Tags -->
-  <title>Tulsi Mishrika - Pure Traditional Crystal Sugar | Natural Mishri</title>
-  <meta name="title" content="Tulsi Mishrika - Pure Traditional Crystal Sugar" />
+  <title>MADHU वन - Pure Traditional Crystal Sugar | Natural Mishri</title>
+  <meta name="title" content="MADHU वन - Pure Traditional Crystal Sugar" />
   <meta name="description" content="Experience authentic handcrafted Mishri infused with Tulsi. 100% natural crystal sugar made using centuries-old traditional methods. Free shipping above ₹500." />
   <meta name="keywords" content="mishri, crystal sugar, tulsi mishri, rock sugar, traditional sweetener, natural sugar, indian mishri" />
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://tulsimishrika.com/" />
-  <meta property="og:title" content="Tulsi Mishrika - Pure Traditional Crystal Sugar" />
+  <meta property="og:title" content="MADHU वन - Pure Traditional Crystal Sugar" />
   <meta property="og:description" content="Handcrafted Mishri infused with Tulsi. 100% natural and pure." />
   <meta property="og:image" content="https://tulsimishrika.com/og-image.png" />
   
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:url" content="https://tulsimishrika.com/" />
-  <meta property="twitter:title" content="Tulsi Mishrika - Pure Traditional Crystal Sugar" />
+  <meta property="twitter:title" content="MADHU वन - Pure Traditional Crystal Sugar" />
   <meta property="twitter:description" content="Handcrafted Mishri infused with Tulsi. 100% natural and pure." />
   <meta property="twitter:image" content="https://tulsimishrika.com/og-image.png" />
   
@@ -640,4 +639,4 @@ After deployment:
 
 ---
 
-**Congratulations! Your Tulsi Mishrika e-commerce site is live! 🎉**
+**Congratulations! Your MADHU वन e-commerce site is live! 🎉**
