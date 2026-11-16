@@ -275,9 +275,9 @@ export default function OrderConfirmation() {
                 </div>
 
                 {/* Actions */}
-                <div className="space-y-3">
+                <div className="space-y-5">
                   <Link to="/account">
-                    <Button variant="primary" size="lg" className="w-full">
+                    <Button variant="primary" size="lg" className="w-full mb-5">
                       View Order History
                     </Button>
                   </Link>
