@@ -143,10 +143,12 @@ if (!response.ok) {
         setSubmitted(false);
         setErrors({});
       }, 3000);
-    } catch {
-      setErrors({
-        form: 'Something went wrong. Please try again.',
-      });
+      } catch (error) {
+  setErrors({
+    form: error instanceof Error
+      ? error.message
+      : 'Something went wrong. Please try again.',
+  });
     } finally {
       setLoading(false);
     }
