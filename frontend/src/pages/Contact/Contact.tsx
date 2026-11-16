@@ -123,7 +123,15 @@ export default function Contact() {
   body: JSON.stringify(formData),
 });
 
-const result = await response.json();
+const responseText = await response.text();
+
+let result: any = {};
+
+try {
+  result = JSON.parse(responseText);
+} catch {
+  throw new Error(responseText || 'The server returned an invalid response.');
+}
 
 if (!response.ok) {
   throw new Error(result.error || 'Failed to send message');
